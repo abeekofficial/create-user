@@ -1,0 +1,23 @@
+/* Footer.css */
+.footer {
+    text-align: center;
+    background-color: rgba(153, 153, 153, 0.1);
+}
+
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+.footer a {
+    text-decoration: underline;
+    text-decoration-style: solid;
+    color: #19376D;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #0077cc;
+}

@@ -1,0 +1,86 @@
+.overlay {
+    backdrop-filter: blur(3px);
+    position: flex;
+    background-color: rgba(51, 51, 51, 0.5);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.modal {
+    background-color: #fff;
+    padding: 0.8rem 2.5rem;
+    border-radius: 0.5rem;
+    text-align: center;
+    position: relative;
+}
+
+.modal form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+
+}
+
+.modal input {
+    font-size: 15px;
+    font-family: inherit;
+    padding: 5px
+}
+
+
+.modal label span {
+    display: block;
+    text-align: left;
+    margin-bottom: 5px;
+}
+
+.gender {
+    display: flex;
+    gap: 1rem;
+}
+
+.gender label {
+    display: inline-flex;
+}
+
+.modal-btn {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.modal-btn {
+    background: #F45050;
+    color: #fff;
+    border: 0;
+    font-family: inherit;
+    padding: 0.5rem 1.5rem;
+    cursor: pointer;
+    font-weight: 500;
+    align-self: center;
+    margin-top: 1rem;
+    border-radius: 0.2rem;
+}
+
+.close-modal {
+    position: absolute;
+    top: 10px;
+    right: 5px;
+    width: 20px;
+    height: 20px;
+    border: 1px solid rgb(229, 44, 44);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(229, 44, 44);
+    font-size: 20px;
+}
